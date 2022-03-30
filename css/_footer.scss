@@ -1,0 +1,29 @@
+footer{
+    display:flexbox;
+    background-color:rgba(49, 49, 49, 0.747);
+    color: $col1;  
+    bottom: 0px;
+    ul{ 
+        li{list-style: none;
+            display: inline;
+            text-align: center;
+        }
+    }
+}
+.container_foter {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: auto;
+    color: $col1;    
+}
+.box_footer {
+    display: flex;  padding: 20px;
+    bottom: 0%;   
+}
+.terms {font-family: cursive;
+    font-size: $text2;
+    margin: auto 150px;
+    display: flex;
+    text-align: center;
+    
+}

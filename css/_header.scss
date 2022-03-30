@@ -1,0 +1,33 @@
+header{
+    
+    justify-content: space-between;
+    max-width: 100%;
+
+        nav{
+
+            ul{
+                display: flex;
+                list-style: none;
+                
+                    li{
+                    display: flex;
+                    font-size: $text2;
+                    border-radius: 30px;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    &:hover{ border: 2px solid white;
+            
+                    a{ list-style: none;
+                    text-decoration: none;
+                    }
+                }
+                
+
+            }
+        }
+    }
+}
+.header-list {justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    background-color: $col1;
+}

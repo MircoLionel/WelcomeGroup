@@ -1,0 +1,38 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 200px auto ;
+    justify-content:space-around ;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: $text2;    
+}
+.gridcontainer div a p {text-decoration: none;}
+
+#galeria div {padding: 5px;}
+
+#galeria img:hover{
+    border: 2px solid white;
+}
+#galeria img{width:350px;
+    height: 350px;
+}
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4 auto);    
+}
+.columnas img{
+    width: 310px;
+    height: 200px;
+}
+.columnas{
+margin: 5px;
+}
+.columna img{
+    width: 320px;
+    height: 280px;
+}

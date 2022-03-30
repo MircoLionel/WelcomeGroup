@@ -1,0 +1,35 @@
+*{margin: 0%;}
+
+
+main {height: 100vh;
+}
+body {margin: 0%;
+background-image: url(../imagenes/grupal.jpeg);
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+}
+
+h1 font{
+    size: $text5;
+    color: $col1;
+}
+h2 {font-size: $text4;
+    background-color:rgba(0,0,0,0.9);
+    color: $col3;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+}
+h3 { 
+    font-size: $text3;
+    color: $col3;
+    }
+h4 {
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;;
+    width: 70%;
+}
+
+    
