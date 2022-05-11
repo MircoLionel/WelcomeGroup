@@ -54,3 +54,17 @@ for (dest of destinos){
 }
 
 
+document.addEventListener("DOMContentLoaled", () => {
+    console.log("el documento se cargo correctamente");
+    
+});
+
+
+const form = document.querySelector("#formularioo");
+const enviarformulario = (event) => {
+    event.preventDefault();
+    console.log(event.target.name, event.target.email, event.target.password,);
+
+};
+form.addEventListener("submit", enviarformulario);
+
