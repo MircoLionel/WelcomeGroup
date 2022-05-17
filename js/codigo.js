@@ -68,3 +68,6 @@ const enviarformulario = (event) => {
 };
 form.addEventListener("submit", enviarformulario);
 
+
+
+var rellax = new Rellax('.rellax');
