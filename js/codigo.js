@@ -73,8 +73,18 @@ form.addEventListener("submit", enviarformulario);
 var rellax = new Rellax('.rellax');
 
 
-function fetchKantoPokemon(){
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
-    .then(response => response.json())
-    .then(allpokemon => console.log(allpokemon))
-  }
+const $poke = document.querySelector( '#poke' )
+function renderpke (image) {
+    $poke.setAttribute( 'src', image)
+}
+fetch ('http://127.0.0.1:5500/mirco.json').then((Response) => response.json()).
+then((mirco) =>{
+    const nombree = mirco.
+    map((mirco) => mirco.nombre)
+    console.log(nombree);
+
+}
+)
+
+
+
